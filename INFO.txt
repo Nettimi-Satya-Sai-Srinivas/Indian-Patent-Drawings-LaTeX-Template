@@ -1,0 +1,40 @@
+(1)
+
+    documentclass:
+    Declares the document type as per LaTeX convention.
+
+
+(2) LaTeX packages:
+
+    geometry:
+    It supports to define the standard page layout for Form-2
+    (i.e., provisional/complete specifications) as per the Indian Patent Rules.
+    https://ctan.org/pkg/geometry
+
+    showframe:
+    It supports to see the page layout set by the geometry package.
+    https://ctan.org/pkg/showframe
+
+    graphicx: 
+	It supports for including graphics (i.e., figures).
+	It is required for including the necessary figure in the abstract section.
+    https://ctan.org/pkg/graphicx
+
+    rotating:
+    It supports to perform all different sorts of rotation on figures and tables
+    with their captions.
+
+    caption: 
+	It supports for customizing the captions in the floating environments
+    (e.g., figures and tables).
+    https://ctan.org/pkg/caption
+
+    lastpage:
+    It introduces a new label that gives a reference to the last page of a document.
+    It is particularly useful in the page header that says Total no. of Sheets: N.
+    https://ctan.org/pkg/lastpage
+
+    fancyhdr:
+    It provides extensive facilities, both for constructing headers and footers,
+    and for controlling their use.
+    https://ctan.org/pkg/fancyhdr
